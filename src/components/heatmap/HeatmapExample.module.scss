@@ -1,0 +1,20 @@
+.main {
+  height: 100vh;
+  background-color: rgb(6, 10, 63);
+  color: darksalmon;
+  padding: 0.5rem 1rem;
+
+  h2 {
+    margin: 0;
+  }
+
+  .heatmap {
+    &-continer {
+      height: 40vh;
+      border: 2px solid palegreen;
+      margin: 1rem 0;
+      box-sizing: border-box;
+      position: relative;
+    }
+  }
+}
